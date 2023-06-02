@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Empresas, Opciones } from './components'
+import { Empresas, LisrtarCursos, Opciones } from './components'
 
 export default function Home() {
   return (
@@ -31,6 +31,7 @@ export default function Home() {
       </main>
       <Empresas />
       <Opciones />
+      <LisrtarCursos />
     </>
   )
 }

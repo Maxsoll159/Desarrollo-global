@@ -7,12 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundColor:{
+        'blue-desarrollo': "#2133a5"
+      },
       backgroundImage: {
         'fondo' : 'url("/img/fondoPage.webp")',
-        'rectangulo' : 'url("/img/chica.webp")'
+        'rectangulo' : 'url("/img/chica.webp")',
+        'estrella': 'url("/img/estrella.webp")'
       },
       colors:{
-        'link' : "#aab1b8"
+        'link' : "#aab1b8",
+        'blue-desarrollo' : "#2133a5"
       },
     },
   },
