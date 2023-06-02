@@ -9,11 +9,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         'fondo' : 'url("/img/fondoPage.webp")',
-        'rectangulo' : 'url("/img/rectangulo.webp")'
+        'rectangulo' : 'url("/img/chica.webp")'
       },
       colors:{
         'link' : "#aab1b8"
-      }
+      },
     },
   },
   plugins: [],
