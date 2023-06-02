@@ -11,7 +11,7 @@ export default function Home() {
             <p className='text-white text-base mt-2 xl:w-[90%] 2xl:w-[75%] font-sans'>“Únete a nuestra comunidad de más de 50.000 alumnos capacitados y certificados.”</p>
           </div>
           <div className=''>
-            <div className='bg-rectangulo mx-auto w-[600px] h-[547px] bg-contain bg-no-repeat mt-20 relative'>
+            <div className='bg-rectangulo mx-auto w-[600px] h-[447px] 2xl:h-[557px] bg-contain bg-no-repeat relative'>
               <Image src="/img/icon1.webp" alt='SIAF - Desarrollo Global' width={82} height={82} className='absolute top-[26%] -left-2 flotante' />
               <Image src="/img/icon2.webp" alt='SIGA - Desarrollo Global' width={102} height={102} className='absolute top-1/2 -left-28 flotante' />
               <Image src="/img/icon3.webp" alt='SIAF - Desarrollo Global' width={96} height={96} className='absolute bottom-[10%] -left-10 flotante' />
