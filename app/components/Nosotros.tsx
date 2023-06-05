@@ -13,7 +13,7 @@ export const Nosotros = () => {
                         <a href="" className="text-[#428dff] font-bold">Haz clic en el video y conoce quienes somos</a>
                     </div>
                     <div>
-                        <iframe src="https://player.vimeo.com/video/728721225?loop=false&autoplay=false&muted=false&gesture=media&playsinline=true&byline=false&portrait=false&title=false&speed=true&transparent=false&customControls=true" width="640" height="360"  allow="autoplay; fullscreen"  className="mx-auto h-full rounded-md"></iframe>
+                        <iframe src="https://player.vimeo.com/video/728721225?loop=false" width="640" height="360"  allow="autoplay; fullscreen"  className="mx-auto h-full rounded-md"></iframe>
                     </div>
                 </div>
             </article>
