@@ -11,27 +11,21 @@ export const Card = () => {
                     <p>En vivo</p>
                 </div>
             </div>
-            <div className="p-5">
-                <p className="text-blue-desarrollo font-bold text-2xl text-center">Administración Financiera y Gestión Gubernamental</p>
-                <div className="shadow-lg rounded-md flex justify-center gap-3 p-2 mt-2 font-bold text-blue-desarrollo">
+            <div className="p-5 bg-[#f3f6ff] w-full">
+                <p className="text-blue-desarrollo font-black text-2xl text-center">Administración Financiera y Gestión Gubernamental</p>
+                <div className="shadow-lg rounded-md flex justify-center gap-3 p-2 mt-2 font-bold text-[#428DFF] bg-white border border-[#428DFF]">
                     <i className="fi fi-rr-diploma text-xl flex"></i>
                     <p>Certificado Universitarios</p>
                 </div>
-                <div className="shadow-lg rounded-md flex justify-center gap-3 p-2 mt-3 font-bold text-blue-desarrollo">
+                <div className="shadow-lg rounded-md flex justify-center gap-3 p-2 mt-3 font-bold text-[#428DFF] bg-white border border-[#428DFF]">
                     <i className="fi fi-rr-calendar text-xl flex"></i>
                     <p>Certificado Universitarios</p>
                 </div>
-                <div className="bg-blue-desarrollo rounded-md p-5 flex items-center justify-between mt-5">
-                    <div>
-                        <span className="text-white text-sm">PRECIO</span>
-                        <p className="text-[#ffca00] font-semibold">Normal S/ <span className="line-through">397.00</span> </p>
-                        <span className="text-white font-bold text-3xl">S/ 327.00</span>
-                    </div>
-                    <div className="bg-estrella w-[92px] h-[92px] flex flex-col justify-center items-center text-blue-desarrollo font-bold">
-                        <span className="text-3xl">25%</span>
-                        <span className="-mt-3 text-end">dsct</span>
-                    </div>
+                <div className="bg-[#ffe001] flex rounded-md justify-center gap-3 font-bold px-2 py-3 mt-5 w-full items-center">
+                    <p className="text-[24px] leading-7">¡Aprovecha un de descuento!</p>
+                    <p className="font-black text-[52px]">25%</p>
                 </div>
+                <button className="bg-blue-desarrollo text-white flex items-center justify-center gap-5 text-xl  p-4 w-full mt-5 rounded-lg"><i className="fi fi-rs-bullseye-pointer flex text-2xl"></i>Más Información</button>
             </div>
         </div>
     )

@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -13,7 +14,8 @@ module.exports = {
       backgroundImage: {
         'fondo' : 'url("/img/fondoPage.webp")',
         'rectangulo' : 'url("/img/chica.webp")',
-        'estrella': 'url("/img/estrella.webp")'
+        'estrella': 'url("/img/estrella.webp")',
+        'laptop' : 'url("/img/lap.webp")'
       },
       colors:{
         'link' : "#aab1b8",

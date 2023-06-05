@@ -1,9 +1,11 @@
 import Link from "next/link"
-
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export const Opciones = () => {
     return (
-        <section className="bg-white">
+        <section className="">
             <article className="py-20 container mx-auto">
                 <h3 className="text-3xl text-center text-[#374957] font-bold">Hola, ¿Qué estas buscando aprender hoy?</h3>
                 <div className="grid grid-cols-5 mt-14">
