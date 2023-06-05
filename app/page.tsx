@@ -1,7 +1,8 @@
 import Image from 'next/image'
-import { Information, LisrtarCursos, Opciones } from './components'
+import { Comentarios, Information, LisrtarCursos, Nosotros, Opciones, Teachers } from './components'
 import { Benefits } from '@/components/Slider/Benefits'
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 export default function Home() {
   return (
     <>
@@ -32,6 +33,9 @@ export default function Home() {
       <Opciones />
       <LisrtarCursos />
       <Information />
+      <Teachers />
+      <Nosotros /> 
+      <Comentarios />
     </>
   )
 }

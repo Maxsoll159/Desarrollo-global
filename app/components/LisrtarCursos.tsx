@@ -1,20 +1,9 @@
 "use client"
 import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { Card } from "@/components/Cards/Card"
-
-
+import { useSlider } from '@/hooks/useSlider';
 export const LisrtarCursos = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1000
-  };
+  const [settings] = useSlider({ valor: 4 })
   return (
     <section className="bg-blue-desarrollo">
       <article className="container mx-auto py-10">

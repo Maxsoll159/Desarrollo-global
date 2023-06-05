@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 
 export const Information = () => {
@@ -10,22 +11,22 @@ export const Information = () => {
                     nos hemos consolidado como el aliado ideal para satisfacer tus necesidades de formación.</p>
                 <div className="flex items-center justify-center gap-24 mt-10">
                     <div className="flex items-center gap-3">
-                        <div className="w-[62px] h-[62px] bg-gray-300"></div>
-                        <div className="text-xl font-normal">
+                        <Image src="/img/Medal.webp" alt="" width={62} height={62} />
+                        <div className="text-xl font-semibold w-[256px]">
                             <p>Certificación</p>
                             <p>ISO 9001 - 2015</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-3">
-                        <div className="w-[62px] h-[62px] bg-gray-300"></div>
-                        <div className="text-xl font-normal">
+                        <Image src="/img/Winner.webp" alt="" width={62} height={62} />
+                        <div className="text-xl font-semibold w-[256px]">
                             <p>Respaldo</p>
                             <p>Universitario</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-3">
-                        <div className="w-[62px] h-[62px] bg-gray-300"></div>
-                        <div className="text-xl font-normal">
+                        <Image src="/img/Qr.webp" alt="" width={62} height={62} />
+                        <div className="text-xl font-semibold w-[256px]">
                             <p>Certificado</p>
                             <p>Digital y Físico (*)</p>
                         </div>
@@ -33,6 +34,33 @@ export const Information = () => {
                 </div>
                 <div className="w-full h-[500px] bg-gray-200 mt-5 bg-laptop bg-no-repeat bg-cover">
 
+                </div>
+                <div className="flex items-center justify-center gap-24 mt-10">
+                    <div className="flex items-start gap-3">
+                        <Image src="/img/live.webp" alt="" width={62} height={62} />
+                        <div className="text-xl font-semibold">
+                            <p>Clases</p>
+                            <p>100% en vivo</p>
+                            <p className="text-sm w-[256px] font-normal">Accede a nuestras sesiones en vivo, repasa clases, descarga materiales y resuelve evaluaciones desde cualquier dispositivo.</p>
+                        </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                        <Image src="/img/Rocket.webp" alt="" width={62} height={62} />
+                        <div className="text-xl font-semibold">
+                            <p>Moderna</p>
+                            <p>Platadorma Educativa</p>
+                            <p className="text-sm w-[256px] font-normal">Acceso 24 horas del día.
+                                Nuestros acceso está disponible durante un año para que puedas aprender a tu propio ritmo.</p>
+                        </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                        <Image src="/img/Option.webp" alt="" width={62} height={62} />
+                        <div className="text-xl font-semibold">
+                            <p>Atención y Soporte</p>
+                            <p>Personalizado</p>
+                            <p className="text-sm w-[256px] font-normal">Te brindamos soporte personalizado para que puedas resolver todas tus dudas y no interrumpas tu aprendizaje.</p>
+                        </div>
+                    </div>
                 </div>
             </article>
         </section>
