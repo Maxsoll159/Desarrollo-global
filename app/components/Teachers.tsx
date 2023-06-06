@@ -11,10 +11,10 @@ export const Teachers = () => {
             <article className="container mx-auto">
                 <h3 className="text-center text-white text-3xl font-bold">Aprende de los mejores docentes</h3>
                 <p className="text-center text-white text-lg mb-10">Aprende de la mano con expertos y alcanza tus metas profesionales</p>
-                <Slider {...settings} className='py-3'>
+                <Slider {...settings} className='p-5 md:py-3'>
                     <div>
-                        <div className='w-[280px] bg-white rounded-md'>
-                            <div className='w-[280px] h-[265px] bg-gray-200 rounded-t-md'>
+                        <div className='w-full md:w-[280px] bg-white rounded-md'>
+                            <div className='w-full md:w-[280px] h-[265px] bg-gray-200 rounded-t-md'>
                             </div>
                             <div className='py-10'>
                                 <p className='text-center font-bold text-xl'>CPC Marlom Prieto</p>
@@ -24,8 +24,8 @@ export const Teachers = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='w-[280px] bg-white rounded-md'>
-                            <div className='w-[280px] h-[265px] bg-gray-200 rounded-t-md'>
+                        <div className='w-full md:w-[280px] bg-white rounded-md'>
+                            <div className='w-full md:w-[280px] h-[265px] bg-gray-200 rounded-t-md'>
                             </div>
                             <div className='py-10'>
                                 <p className='text-center font-bold text-xl'>CPC Marlom Prieto</p>
@@ -35,8 +35,8 @@ export const Teachers = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='w-[280px] bg-white rounded-md'>
-                            <div className='w-[280px] h-[265px] bg-gray-200 rounded-t-md'>
+                        <div className='w-full md:w-[280px] bg-white rounded-md'>
+                            <div className='w-full md:w-[280px] h-[265px] bg-gray-200 rounded-t-md'>
                             </div>
                             <div className='py-10'>
                                 <p className='text-center font-bold text-xl'>CPC Marlom Prieto</p>
@@ -46,8 +46,8 @@ export const Teachers = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='w-[280px] bg-white rounded-md'>
-                            <div className='w-[280px] h-[265px] bg-gray-200 rounded-t-md'>
+                        <div className='w-full md:w-[280px] bg-white rounded-md'>
+                            <div className='w-full md:w-[280px] h-[265px] bg-gray-200 rounded-t-md'>
                             </div>
                             <div className='py-10'>
                                 <p className='text-center font-bold text-xl'>CPC Marlom Prieto</p>
@@ -57,8 +57,8 @@ export const Teachers = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='w-[280px] bg-white rounded-md'>
-                            <div className='w-[280px] h-[265px] bg-gray-200 rounded-t-md'>
+                        <div className='w-full md:w-[280px] bg-white rounded-md'>
+                            <div className='w-full md:w-[280px] h-[265px] bg-gray-200 rounded-t-md'>
                             </div>
                             <div className='py-10'>
                                 <p className='text-center font-bold text-xl'>CPC Marlom Prieto</p>
@@ -68,8 +68,8 @@ export const Teachers = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='w-[280px] bg-white rounded-md'>
-                            <div className='w-[280px] h-[265px] bg-gray-200 rounded-t-md'>
+                        <div className='w-full md:w-[280px] bg-white rounded-md'>
+                            <div className='w-full md:w-[280px] h-[265px] bg-gray-200 rounded-t-md'>
                             </div>
                             <div className='py-10'>
                                 <p className='text-center font-bold text-xl'>CPC Marlom Prieto</p>

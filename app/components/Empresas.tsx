@@ -12,25 +12,25 @@ export const Empresas = () => {
         </div>
         <Slider {...settings} className='py-3'>
           <div>
-            <Image src="/img/empresa1.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} />
+            <Image src="/img/empresa1.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} className='mx-auto w-full md:w-auto' />
           </div>
           <div>
-            <Image src="/img/empresa2.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} />
+            <Image src="/img/empresa2.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} className='mx-auto w-full md:w-auto' />
           </div>
           <div>
-            <Image src="/img/empresa3.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} />
+            <Image src="/img/empresa3.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} className='mx-auto w-full md:w-auto' />
           </div>
           <div>
-            <Image src="/img/empresa4.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} />
+            <Image src="/img/empresa4.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} className='mx-auto w-full md:w-auto' />
           </div>
           <div>
-            <Image src="/img/empresa5.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} />
+            <Image src="/img/empresa5.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} className='mx-auto w-full md:w-auto' />
           </div>
           <div>
-            <Image src="/img/empresa1.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} />
+            <Image src="/img/empresa1.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} className='mx-auto w-full md:w-auto' />
           </div>
           <div>
-            <Image src="/img/empresa4.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} />
+            <Image src="/img/empresa4.webp" alt="Desarrollo Global - Empresa 1" width={260} height={112} className='mx-auto w-full md:w-auto' />
           </div>
         </Slider>
       </article>

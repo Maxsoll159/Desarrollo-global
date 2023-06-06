@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function useSlider({ valor }: {valor: Number}) {
+export function useSlider({ valor }: { valor: Number}) {
 
     const settings = {
         dots: false,
@@ -9,7 +9,33 @@ export function useSlider({ valor }: {valor: Number}) {
         slidesToShow: Number(valor),
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1000
+        autoplaySpeed: 1000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
     return [settings]
 }

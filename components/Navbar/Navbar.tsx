@@ -4,7 +4,7 @@ import Link from "next/link"
 export const Navbar = () => {
     return (
         <header className="bg-transparent">
-            <nav className="container mx-auto w-full relative">
+            <nav className="container mx-auto w-full relative hidden md:block">
                 <div className="absolute py-3 flex items-center justify-between w-full">
                     <Image src="/img/logoDesarrollo.webp" alt="Desarrollo Global" width={226} height={56} />
                     <div className="flex items-center gap-7">

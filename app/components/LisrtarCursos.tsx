@@ -9,7 +9,7 @@ export const LisrtarCursos = () => {
       <article className="container mx-auto py-10">
         <p className="text-center text-white font-bold text-3xl">Lista de Próximos Inicios</p>
         <p className="text-center text-white mb-10">“¡Mantente al tanto de nuestros prócimos inicios y no te pierdas la oportunidad de formarte con los mejores!”</p>
-        <Slider {...settings} className='py-3'>
+        <Slider {...settings} className='p-5 md:py-3'>
           <div>
             <Card />
           </div>
