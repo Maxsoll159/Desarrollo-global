@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function Opciones (){
+export const Opciones = () => {
     return (
         <section className="">
             <article className="py-20 container mx-auto">

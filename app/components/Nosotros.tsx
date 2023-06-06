@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 
-export default function Nosotros (){
+export const Nosotros = () => {
     return (
         <section className="bg-white py-20">
             <article className="container mx-auto p-5 md:p-0">

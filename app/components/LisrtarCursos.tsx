@@ -2,7 +2,7 @@
 import Slider from 'react-slick';
 import { Card } from "@/components/Cards/Card"
 import { useSlider } from '@/hooks/useSlider';
-export default function ListarCursos (){
+export const LisrtarCursos = () => {
   const [settings] = useSlider({ valor: 4 })
   return (
     <section className="bg-blue-desarrollo">

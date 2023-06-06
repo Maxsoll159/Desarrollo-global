@@ -1,19 +1,8 @@
-import dynamic from 'next/dynamic';
 import Image from 'next/image'
-
-const Opciones = dynamic(() => import('./components/Opciones'));
-const LisrtarCursos = dynamic(() => import('./components/LisrtarCursos'));
-const Information = dynamic(() => import('./components/Information'));
-const Teachers = dynamic(() => import('./components/Teachers'));
-const Nosotros = dynamic(() => import('./components/Nosotros'));
-const Comentarios = dynamic(() => import('./components/Comentarios'));
-const InformationInHouse = dynamic(() => import('./components/InformationInHouse'));
-const Empresas = dynamic(() => import('./components/Empresas'));
-
+import { Comentarios, Empresas, Information, InformationInHouse, LisrtarCursos, Nosotros, Opciones, Teachers } from './components'
 import { Benefits } from '@/components/Slider/Benefits'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 export default function Home() {
   return (
     <>
