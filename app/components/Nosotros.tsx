@@ -13,7 +13,7 @@ export const Nosotros = () => {
                         <a href="" className="text-[#428dff] font-bold">Haz clic en el video y conoce quienes somos</a>
                     </div>
                     <div>
-
+                        <iframe src="https://s3-desarrollo-global.s3.us-west-2.amazonaws.com/pagina-web/desarrolloglobal_info.mp4" width="640" height="360"  allow="autoplay; fullscreen"  className="mx-auto h-full rounded-md"></iframe>
                     </div>
                 </div>
             </article>

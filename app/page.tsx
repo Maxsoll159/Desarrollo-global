@@ -1,13 +1,13 @@
 import Image from 'next/image'
-import { Comentarios, Information, LisrtarCursos, Nosotros, Opciones, Teachers } from './components'
+import { Comentarios, Empresas, Information, InformationInHouse, LisrtarCursos, Nosotros, Opciones, Teachers } from './components'
 import { Benefits } from '@/components/Slider/Benefits'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 export default function Home() {
   return (
     <>
-      <main className='bg-fondo bg-no-repeat bg-cover '>
-        <article className='container mx-auto h-screen'>
+      <main className='bg-fondo bg-no-repeat bg-cover'>
+        <article className='container mx-auto h-[calc(100vh_-_145px)]'>
           <div className='grid grid-cols-2 items-center h-full w-full'>
             <div className=''>
               <h1 className='text-[#ffca00] font-black text-5xl lg:w-[90%] xl:w-full '>OBTÉN LA CERTIFICACION QUE NECESITAS PARA</h1>
@@ -36,6 +36,8 @@ export default function Home() {
       <Teachers />
       <Nosotros /> 
       <Comentarios />
+      <InformationInHouse />
+      <Empresas />
     </>
   )
 }
