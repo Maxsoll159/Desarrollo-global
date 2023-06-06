@@ -16,7 +16,7 @@ module.exports = {
         'rectangulo' : 'url("/img/chica.webp")',
         'estrella': 'url("/img/estrella.webp")',
         'laptop' : 'url("/img/lap.webp")',
-        'comentarios': 'url("/img/fondoComentarios.webp")'
+        'comentarios': 'url()'
       },
       colors:{
         'link' : "#aab1b8",
