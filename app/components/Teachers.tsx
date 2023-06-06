@@ -4,7 +4,7 @@ import { useSlider } from '@/hooks/useSlider';
 import Image from 'next/image';
 import Slider from 'react-slick';
 
-export const Teachers = () => {
+export default function Teachers (){
     const [settings] = useSlider({ valor: 5 })
     return (
         <section className="bg-blue-desarrollo py-20">

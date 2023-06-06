@@ -2,7 +2,7 @@
 import { useSlider } from '@/hooks/useSlider';
 import Image from 'next/image';
 import Slider from 'react-slick';
-export const Empresas = () => {
+export default function Empresas () {
   const [settings] = useSlider({ valor: 5 })
   return (
     <section className="bg-[#0e2faa]">

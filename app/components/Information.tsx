@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 
-export const Information = () => {
+export default function Informacion(){
 
     return (
         <section className="p-5 md:py-20">
