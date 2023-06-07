@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <main className='bg-fondo bg-no-repeat bg-cover'>
-        <article className='container mx-auto h-[calc(100vh_-_145px)]'>
+        <article className='container mx-auto h-[calc(100vh_-_124px)]'>
           <div className='grid grid-cols-1 md:grid-cols-2 items-center h-full w-full'>
             <div className='p-5 md:p-0'>
               <h1 className='text-[#ffca00] font-black text-xl md:text-left md:text-5xl w-full lg:w-[90%] xl:w-full'>OBTÉN LA CERTIFICACION QUE NECESITAS PARA</h1>

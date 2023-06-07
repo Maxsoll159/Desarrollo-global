@@ -1,10 +1,10 @@
 "use client"
-import { useSlider } from "@/hooks/useSlider"
-import dynamic from 'next/dynamic';
-import { CardComentarios } from "@/components/Cards/CardComentarios";
 
+import dynamic from 'next/dynamic';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useSlider } from "@/hooks/useSlider"
+import { CardComentarios } from "@/components/Cards/CardComentarios";
 const Slider = dynamic(() => import('react-slick'))
 
 export const Comentarios = () => {
