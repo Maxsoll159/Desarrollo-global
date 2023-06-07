@@ -15,7 +15,7 @@ module.exports = {
         'fondo' : 'url("/img/fondoPage.webp")',
         'rectangulo' : 'url("/img/chica.webp")',
         'estrella': 'url("/img/estrella.webp")',
-        'laptop' : 'url("/img/lap.webp")',
+        'laptop' : 'url("/img/lapto.webp")',
         'comentarios': 'url("/img/fondoComentario.webp")'
       },
       colors:{

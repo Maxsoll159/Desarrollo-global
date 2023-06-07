@@ -33,7 +33,7 @@ export const Information = () => {
                     </div>
                 </div>
 
-                <div className="w-full h-[500px] bg-gray-200 mt-5 bg-laptop bg-no-repeat bg-cover">
+                <div className=" w-full h-full md:w-[975px] md:h-[549px] mt-5 bg-laptop bg-no-repeat bg-cover mx-auto">
 
                 </div>
                 
