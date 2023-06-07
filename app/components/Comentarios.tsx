@@ -3,6 +3,8 @@ import { useSlider } from "@/hooks/useSlider"
 import dynamic from 'next/dynamic';
 import { CardComentarios } from "@/components/Cards/CardComentarios";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const Slider = dynamic(() => import('react-slick'))
 
 export const Comentarios = () => {
