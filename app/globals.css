@@ -4,11 +4,25 @@
 
 @font-face {
   font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Italic-VariableFont_wght.ttf') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+span,
+button {
+  font-family: 'Montserrat', sans-serif;
+}
 
 .flotante {
   animation: flotar 3s ease-in-out infinite alternate;
