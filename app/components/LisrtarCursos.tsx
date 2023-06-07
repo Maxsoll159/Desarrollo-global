@@ -1,5 +1,6 @@
 "use client"
-import Slider from 'react-slick';
+import dynamic from 'next/dynamic';
+const Slider = dynamic(() => import('react-slick'))
 import { Card } from "@/components/Cards/Card"
 import { useSlider } from '@/hooks/useSlider';
 export const LisrtarCursos = () => {

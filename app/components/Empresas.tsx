@@ -1,7 +1,8 @@
 "use client"
 import { useSlider } from '@/hooks/useSlider';
 import Image from 'next/image';
-import Slider from 'react-slick';
+import dynamic from 'next/dynamic';
+const Slider = dynamic(() => import('react-slick'))
 export const Empresas = () => {
   const [settings] = useSlider({ valor: 5 })
   return (
