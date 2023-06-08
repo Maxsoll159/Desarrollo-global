@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Comentarios, Empresas, Information, InformationInHouse, LisrtarCursos, Nosotros, Opciones, Teachers } from './components'
+import { Comentarios, Contactenos, Empresas, Information, InformationInHouse, LisrtarCursos, Nosotros, Opciones, Teachers } from './components'
 import { Benefits } from '@/components/Slider/Benefits'
 export default function Home() {
   return (
@@ -36,6 +36,7 @@ export default function Home() {
       <Comentarios />
       <InformationInHouse />
       <Empresas />
+      <Contactenos />
     </>
   )
 }

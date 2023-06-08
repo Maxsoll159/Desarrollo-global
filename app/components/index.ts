@@ -6,4 +6,5 @@ export {Nosotros} from './Nosotros'
 export {Comentarios} from './Comentarios'
 export {InformationInHouse} from './InformationInHouse'
 export {Empresas} from './Empresas'
+export {Contactenos} from './Contactenos'
 

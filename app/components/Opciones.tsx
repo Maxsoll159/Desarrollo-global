@@ -1,6 +1,7 @@
 import Link from "next/link"
 
 import { RiBookOpenLine, RiAwardLine } from "react-icons/ri";
+import { FiFileText, FiHome, FiVideo } from "react-icons/fi"
 
 export const Opciones = () => {
     return (
@@ -26,7 +27,7 @@ export const Opciones = () => {
                         </div>
                     </Link>
                     <Link href="/sd" className="group border-2 rounded-md p-5 md:p-10 flex flex-col justify-center items-center mx-auto hover:bg-[#2a50e4] w-full md:w-[240px] h-[190px]">
-                        <RiAwardLine className="text-[40px] font-dark text-[#2a50e4] group-hover:text-white" />
+                        <FiFileText className="text-[40px] font-dark text-[#2a50e4] group-hover:text-white" />
                         <p className="text-[#7a8897] text-2xl font-bold group-hover:text-white">Diplomados</p>
                         <div className="items-center gap-2 bg-white px-3 py-1 rounded-md mt-2 hidden group-hover:flex">
                             <div className="w-5 h-5 bg-red-500 rounded-full"></div>
@@ -34,6 +35,7 @@ export const Opciones = () => {
                         </div>
                     </Link>
                     <Link href="/sd" className="group border-2 rounded-md p-5 md:p-10 flex flex-col justify-center items-center mx-auto hover:bg-[#2a50e4] w-full md:w-[240px] h-[190px]">
+                        <FiHome className="text-[40px] font-dark text-[#2a50e4] group-hover:text-white" />
                         <i className="fi fi-rr-home text-4xl font-bold text-[#2a50e4] group-hover:text-white"></i>
                         <p className="text-[#7a8897] text-2xl font-bold group-hover:text-white">In House</p>
                         <div className="items-center gap-2 bg-white px-3 py-1 rounded-md mt-2 hidden group-hover:flex">
@@ -42,6 +44,7 @@ export const Opciones = () => {
                         </div>
                     </Link>
                     <Link href="/sd" className="group border-2 rounded-md p-5 md:p-10 flex flex-col justify-center items-center mx-auto hover:bg-[#2a50e4] w-full md:w-[240px] h-[190px]">
+                        <FiVideo className="text-[40px] font-dark text-[#2a50e4] group-hover:text-white" />
                         <i className="fi fi-rr-video-camera text-4xl font-bold text-[#2a50e4] group-hover:text-white"></i>
                         <p className="text-[#7a8897] text-2xl font-bold group-hover:text-white">In House</p>
                         <div className="items-center gap-2 bg-white px-3 py-1 rounded-md mt-2 hidden group-hover:flex">
