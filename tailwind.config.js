@@ -20,7 +20,8 @@ module.exports = {
       },
       colors:{
         'link' : "#aab1b8",
-        'blue-desarrollo' : "#2133a5"
+        'blue-desarrollo' : "#2133a5",
+        'parrajos': "#7A8897"
       },
     },
   },
