@@ -2,8 +2,8 @@ import Image from "next/image"
 
 export const Card = () => {
     return (
-        <div className="bg-white w-full md:w-[350px]">
-            <Image src="/img/imgcardejemplo.webp" width={363} height={272} alt="Curso Demo" />
+        <div className="bg-white w-full md:w-[350px] mx-auto">
+            <Image src="/img/imgcardejemplo.webp" width={363} height={272} alt="Curso Demo" className="w-full" />
             <div className="shadow-lg flex px-5 py-2 justify-between">
                 <p className="font-bold">Curso Especializado</p>
                 <div className="bg-[#e8003f] rounded-md px-3 text-sm flex items-center gap-2 text-white font-semibold">

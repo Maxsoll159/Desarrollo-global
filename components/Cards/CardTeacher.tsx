@@ -1,7 +1,7 @@
 import Image from 'next/image';
 export const CardTeacher = () => {
     return (
-        <div className='w-full md:w-[280px] bg-white rounded-md'>
+        <div className='w-full md:w-[280px] bg-white rounded-md mx-auto'>
             <div className='w-full md:w-[280px] h-[265px] bg-gray-200 rounded-t-md'>
             </div>
             <div className='py-10'>

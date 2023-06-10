@@ -8,7 +8,7 @@ import { CardTeacher } from '@/components/Cards/CardTeacher';
 const Slider = dynamic(() => import('react-slick'))
 
 export const Teachers = () => {
-    const [settings] = useSlider({ valor: 5 })
+    const [settings] = useSlider({ valor: 5, valor2: 2 })
     return (
         <section className="bg-blue-desarrollo py-20">
             <article className="container mx-auto">

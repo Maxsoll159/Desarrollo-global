@@ -8,7 +8,7 @@ import { useSlider } from '@/hooks/useSlider';
 const Slider = dynamic(() => import('react-slick'))
 
 export const Empresas = () => {
-  const [settings] = useSlider({ valor: 5 })
+  const [settings] = useSlider({ valor: 5, valor2: 3 })
   return (
     <section className="bg-[#0e2faa]">
       <article className="container mx-auto">

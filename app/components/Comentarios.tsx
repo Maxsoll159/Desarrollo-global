@@ -8,7 +8,7 @@ import { CardComentarios } from "@/components/Cards/CardComentarios";
 const Slider = dynamic(() => import('react-slick'))
 
 export const Comentarios = () => {
-    const [settings] = useSlider({ valor: 3 })
+    const [settings] = useSlider({ valor: 3, valor2: 2 })
     return (
         <section className="bg-comentarios py-20">
             <article className="container mx-auto">
