@@ -1,4 +1,4 @@
-import { BsWhatsapp} from "react-icons/Bs"
+
 export const Contactenos = () => {
     return (
         <>
@@ -18,7 +18,7 @@ export const Contactenos = () => {
                     <div className="bg-white w-full md:w-[227px] lg:w-[446px] md:h-[417px] rounded-sm shadow-md mx-auto p-10 m-0 md:-mt-20">
                         <div className="bg-blue-desarrollo text-white w-[140px] h-[140px] rounded-full mx-auto"></div>
                         <p className="mt-5 text-center text-blue-desarrollo font-bold text-2xl">ATENCIÓN ALUMNOS</p>
-                        <button className="bg-[#10CE4F] text-white rounded-xl px-5 py-3 w-full text-2xl mt-5 font-bold flex items-center justify-center gap-3"><BsWhatsapp className="text-3xl" /> 933 929 742</button>
+                        <button className="bg-[#10CE4F] text-white rounded-xl px-5 py-3 w-full text-2xl mt-5 font-bold flex items-center justify-center gap-3">933 929 742</button>
                     </div>
                     <div className="bg-white w-full md:w-[227px] lg:w-[446px] md:h-[417px] rounded-sm shadow-md mx-auto p-10 m-0 md:-mt-20">
                         <div className="bg-blue-desarrollo text-white w-[140px] h-[140px] rounded-full mx-auto"></div>
