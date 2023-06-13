@@ -16,12 +16,14 @@ module.exports = {
         'rectangulo' : 'url("/img/chica.webp")',
         'estrella': 'url("/img/estrella.webp")',
         'laptop' : 'url("/img/lapto.webp")',
-        'comentarios': 'url("/img/fondoComentario.webp")'
+        'comentarios': 'url("/img/fondoComentario.webp")',
+        'services' : 'url("/img/fondoServicios.webp")'
       },
       colors:{
         'link' : "#aab1b8",
         'blue-desarrollo' : "#2133a5",
-        'parrajos': "#7A8897"
+        'parrajos': "#7A8897",
+        'celeste' : '#1dd8ff'
       },
     },
   },
