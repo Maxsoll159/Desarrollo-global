@@ -24,20 +24,12 @@ button {
   font-family: 'Montserrat', sans-serif;
 }
 
-.flotante {
-  animation: flotar 3s ease-in-out infinite alternate;
-}
-
-@keyframes flotar {
-  to {
-    transform: translateY(1rem)
-  }
-}
 
 
 .slick-next {
   display: none !important;
 }
+
 .slick-prev {
   display: none !important;
 }

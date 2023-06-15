@@ -12,12 +12,12 @@ module.exports = {
         'blue-desarrollo': "#2133a5"
       },
       backgroundImage: {
-        'fondo' : 'url("/img/fondoPage.webp")',
+        'fondo' : 'url("/img/fondoWeb1.webp")',
         'rectangulo' : 'url("/img/chica.webp")',
         'estrella': 'url("/img/estrella.webp")',
         'laptop' : 'url("/img/lapto.webp")',
         'comentarios': 'url("/img/fondoComentario.webp")',
-        'services' : 'url("/img/fondoServicios.webp")'
+        'services' : 'url("/img/fondoServicio.webp")'
       },
       colors:{
         'link' : "#aab1b8",
