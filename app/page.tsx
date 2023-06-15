@@ -9,7 +9,7 @@ export default function Home() {
           <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center h-full w-full'>
             <div className='p-5 lg:p-0'>
               <h1 className='text-blue-desarrollo font-black text-xl md:text-left md:text-5xl 2xl:text-6xl w-full lg:w-[100%]'>Obtén la <span className='text-[#1DD8FF]'>Certificación </span> que necesitas para trabajar en el estado</h1>
-              <p className='text-blue-desarrollo text-2xl w-[70%] mt-5'>"Únete a nuestra comunidad de más de 50,000 alumnos capacitados y certificados."</p>
+              <p className='text-blue-desarrollo text-2xl w-[70%] mt-5'>Únete a nuestra comunidad de más de 50,000 alumnos capacitados y certificados.</p>
               <div className='flex gap-2 mt-5'>
                 <button className='bg-white text-blue-desarrollo rounded-sm text-lg px-5 py-2 hover:bg-blue-desarrollo hover:text-white'>Cursos</button>
                 <button className='bg-white text-blue-desarrollo rounded-sm text-lg px-5 py-2 hover:bg-blue-desarrollo hover:text-white'>Diplomas</button>
