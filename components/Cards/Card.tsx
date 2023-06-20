@@ -2,7 +2,7 @@ import Image from "next/image"
 import { LuCalendarDays } from 'react-icons/lu'
 export const Card = () => {
     return (
-        <div className="bg-white w-full md:w-[350px] mx-auto">
+        <div className="bg-white w-full md:w-[365px] xl:w-[300px] 2xl:w-[355px] mx-auto">
             <Image src="/img/imgcardejemplo.webp" width={363} height={272} alt="Curso Demo" className="w-full" />
             <div className="shadow-lg flex px-5 py-2 justify-between">
                 <p className="font-bold">Curso Especializado</p>

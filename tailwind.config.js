@@ -17,7 +17,8 @@ module.exports = {
         'estrella': 'url("/img/estrella.webp")',
         'laptop' : 'url("/img/lapto.webp")',
         'comentarios': 'url("/img/fondoComentario.webp")',
-        'services' : 'url("/img/fondoServicio.webp")'
+        'services' : 'url("/img/fondoServicios.webp")',
+        'cursos' : 'url("/img/fondoCursos.webp")'
       },
       colors:{
         'link' : "#aab1b8",
