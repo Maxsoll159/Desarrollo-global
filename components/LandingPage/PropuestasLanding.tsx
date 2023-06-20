@@ -26,7 +26,7 @@ export const PropuestasLanding = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5 p-5 lg:p-5">
                             {
                                 DataProustaValor.map((res) => (
-                                    <div className='border border-blue-desarrollo rounded-md flex py-5 px-4 gap-3 items-start'>
+                                    <div key={res.id} className='border border-blue-desarrollo rounded-md flex py-5 px-4 gap-3 items-start'>
                                         <div className='w-1/2'>
                                             {iconsMap[res.icon]}
                                         </div>
