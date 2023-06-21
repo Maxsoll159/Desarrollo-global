@@ -9,7 +9,7 @@ export const AccordionLayout = ({ title, children, index }: { title: string, chi
     const handleSetIndex = (index: number) => (activeIndex !== index) ? setActiveIndex(index) : setActiveIndex(0);
     return (
         <>
-            <div className={`overflow-hidden transition-all w-full duration-[150ms] ${activeIndex == index ? "h-auto" : "h-[65px]"}`} onClick={() => handleSetIndex(index)}>
+            <div className={`overflow-hidden transition-all w-full duration-[150ms] ${activeIndex !== index ? "h-auto" : "h-[65px]"}`} onClick={() => handleSetIndex(index)}>
                 <div className='flex justify-between mt-2 rounded border-b p-3 cursor-pointer w-full items-center'>
                     <div className='flex items-center'>
                         <div className='flex items-center gap-3'>

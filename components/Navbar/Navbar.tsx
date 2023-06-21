@@ -7,7 +7,7 @@ export const Navbar = () => {
     const [mostrar, setMostrar] = useState<boolean>(false)
     return (
         <header className="bg-white fixed w-full z-50">
-            <nav className="px-5">
+            <nav className="px-0 lg:px-5">
                 <div className="py-2">
                     <div className="flex justify-between w-full items-center">
                         <Image src="/img/DG-Logotipo.webp" alt="Desarrollo Global" width={226} height={56} />

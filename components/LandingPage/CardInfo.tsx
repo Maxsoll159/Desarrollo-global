@@ -4,8 +4,8 @@ import { BsCreditCard, BsWhatsapp } from 'react-icons/bs'
 import {MdAdsClick} from 'react-icons/md'
 export const CardInfo = () => {
     return (
-        <div className="w-[430px] fixed mt-10 shadow-md rounded-tl-lg rounded-tr-lg">
-            <div className="w-full h-[252px] bg-yellow-300 rounded-tl-lg rounded-tr-lg">
+        <div className="w-full md:w-[430px] mx-auto static lg:fixed mt-0 lg:mt-10 shadow-md rounded-tl-lg rounded-tr-lg">
+            <div className="w-full h-[252px] bg-yellow-300 rounded-tl-lg rounded-tr-lg  ">
             </div>
             <div className="bg-white p-5">
                 <div className='flex items-center gap-3'>
@@ -19,7 +19,7 @@ export const CardInfo = () => {
                     <div>
                         <p className='font-semibold'>PRECIO OFERTA</p>
                         <p className='font-extrabold text-[#428dff] text-4xl'>S/ 397<span className='font-normal text-lg'>.00</span></p>
-                        <p className='font-normal'>PRECIO NORMAL: S/ 490.00</p>
+                        <p className='font-normal text-xs md:text-base'>PRECIO NORMAL: S/ 490.00</p>
                     </div>
                     <div className='bg-yellow-300 rounded-md p-4'>
                         <p className='font-black text-4xl'>25%</p>

@@ -5,7 +5,7 @@ export const InfoPage = () => {
   return (
     <section>
         <article className="container mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-4 w-full lg:w-[60%] -mt-11 gap-3 xl:gap-0">
+            <div className="grid grid-cols-2 md:grid-cols-4 w-full lg:w-[60%] mt-0 lg:-mt-11 gap-3 xl:gap-0">
                 <div className="bg-white shadow-md rounded-md py-5 w-full xl:w-[203px] mx-auto text-blue-desarrollo">
                     <Image src="/img/calendarCur.webp" width={51} height={48} alt="Desarrollo Global - Calendario" className="mx-auto" />
                     <p className="font-bold text-center mt-2">Fecha de Inicio:</p>
