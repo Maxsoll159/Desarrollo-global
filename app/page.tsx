@@ -4,8 +4,8 @@ import { Benefits } from '@/components/Slider/Benefits'
 export default function Home() {
   return (
     <>
-      <main className=''>
-        <article className='container mx-auto  h-[calc(100vh_-_123px)]'>
+      <main className='bg-fondo bg-no-repeat bg-cover'>
+        <article className='container mx-auto  h-[600px] md:h-[calc(800px)]'>
           <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center h-full w-full'>
             <div className='p-5 lg:p-0'>
               <h1 className='text-blue-desarrollo font-black text-xl md:text-left md:text-5xl 2xl:text-6xl w-full lg:w-[100%]'>Obtén la <span className='text-[#1DD8FF]'>Certificación </span> que necesitas para trabajar en el estado</h1>
