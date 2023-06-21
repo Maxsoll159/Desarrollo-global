@@ -4,7 +4,7 @@ import { Benefits } from '@/components/Slider/Benefits'
 export default function Home() {
   return (
     <>
-      <main className='bg-fondo bg-no-repeat bg-cover'>
+      <main className=''>
         <article className='container mx-auto  h-[calc(100vh_-_123px)]'>
           <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center h-full w-full'>
             <div className='p-5 lg:p-0'>

@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { BsPatchCheck } from 'react-icons/bs'
 export const Banner = ({ title }: { title: string }) => {
     return (
         <section className="bg-services bg-no-repeat bg-cover">
